@@ -1,51 +1,22 @@
 {
   "name": "Universo UnhasOK",
   "short_name": "UnhasOK",
+  "theme_color": "#00c76e",
+  "background_color": "#ffffff",
+  "description": "A rede social e educacional para manicures, com cursos, agenda e muito mais.",
+  "display": "standalone",
   "start_url": "/",
   "scope": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#a000ff",
-  "description": "A plataforma definitiva para manicures com cursos, agenda, rede e fornecedores.",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "https://326663201c639bcdcc9d4e4cea8d0ea4.cdn.bubble.io/f1746389166686x228954344723292900/192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "https://326663201c639bcdcc9d4e4cea8d0ea4.cdn.bubble.io/f1746389193898x826743860450199600/512.png",
       "sizes": "512x512",
       "type": "image/png"
-    }
-  ],
-  "display_override": ["window-controls-overlay", "standalone"],
-  "edge_side_panel": {
-    "enabled": true,
-    "preferred_width": 360
-  },
-  "prefer_related_applications": false,
-  "related_applications": [],
-  "shortcuts": [
-    {
-      "name": "Cursos",
-      "short_name": "Cursos",
-      "description": "Acesse seus cursos diretamente",
-      "url": "/cursos",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Agenda",
-      "short_name": "Agenda",
-      "description": "Veja sua agenda de atendimentos",
-      "url": "/agenda",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "96x96" }]
-    }
-  ],
-  "protocol_handlers": [
-    {
-      "protocol": "web+curso",
-      "url": "/curso?ref=%s"
     }
   ]
 }
