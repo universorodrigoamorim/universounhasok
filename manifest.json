@@ -3,7 +3,7 @@
   "short_name": "UnhasOK",
   "theme_color": "#00c76e",
   "background_color": "#ffffff",
-  "description": "A rede social e educacional para manicures, com cursos, agenda e muito mais.",
+  "description": "Rede social e educacional para manicures, com cursos e agenda.",
   "display": "standalone",
   "start_url": "/",
   "scope": "/",
