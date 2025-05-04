@@ -1,0 +1,51 @@
+{
+  "name": "Universo UnhasOK",
+  "short_name": "UnhasOK",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a000ff",
+  "description": "A plataforma definitiva para manicures com cursos, agenda, rede e fornecedores.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display_override": ["window-controls-overlay", "standalone"],
+  "edge_side_panel": {
+    "enabled": true,
+    "preferred_width": 360
+  },
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "Cursos",
+      "short_name": "Cursos",
+      "description": "Acesse seus cursos diretamente",
+      "url": "/cursos",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Agenda",
+      "short_name": "Agenda",
+      "description": "Veja sua agenda de atendimentos",
+      "url": "/agenda",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "96x96" }]
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+curso",
+      "url": "/curso?ref=%s"
+    }
+  ]
+}
